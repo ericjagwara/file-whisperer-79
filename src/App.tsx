@@ -1495,7 +1495,7 @@ function EventsPage({ setPage }: EventsPageProps) {
             style={{ border: `1px solid ${C.border}`, background: "#fff" }}
           >
             <iframe
-              src="https://lu.ma/embed/calendar/cal-TIYVNRzD7u9v1ta/events?lt=light&past=true"
+              src="https://lu.ma/embed/calendar/cal-TIYVNRzD7u9v1ta/events?lt=light"
               width="100%"
               height="650"
               style={{ border: "none", display: "block", background: "#fff" }}
