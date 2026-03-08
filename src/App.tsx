@@ -395,7 +395,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Technology, <span style={{ color: C.teal }}>Research and Trainings</span>
+                Technology, Research and Trainings
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric operates at the forefront of technology, blending embedded systems, IoT, machine learning, cybersecurity, and intelligent software. His work combines technical precision, creativity, and practical insight, producing solutions that are innovative, reliable, and designed to make a real difference.
@@ -423,7 +423,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Startups and <span style={{ color: C.blue }}>Ecosystem</span>
+                Startups and Ecosystem
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric builds ventures and strengthens the environment that allows others to succeed. He has built several startups tackling diverse technological challenges, but his influence extends far beyond his own projects.
@@ -451,7 +451,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Community and <span style={{ color: C.purple }}>Leadership</span>
+                Community and Leadership
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric is a driving force in Africa's technology ecosystem, building networks, mentoring talent, and creating opportunities that matter. As Zindi's Country Ambassador for Uganda, he connects local data scientists to a community of over 100,000 practitioners, linking them to competitions, mentorship, and real-world AI projects.
