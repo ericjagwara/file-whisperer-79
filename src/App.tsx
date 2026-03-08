@@ -572,8 +572,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
       q: "I've collaborated with Eric on numerous projects, particularly in AI-related endeavors. His adept management skills consistently elevate our project outcomes, showcasing his ability to effectively coordinate teams and resources.",
       n: "Soddo Paul",
       t: "Founder — IntelliSys Uganda",
-      o: "March 2024",
-      l: "https://www.linkedin.com/in/soddo-paul/",
+      o: "IntelliSys Uganda",
     },
     {
       q: "Throughout our time together, I've often marveled at how Eric Jagwara adeptly balances the dynamic world of technology with the traditional realm of civil engineering. Eric's ability to integrate these two fields sets him apart and undoubtedly contributes to his success in both domains. He is indeed a valuable addition to any team.",
