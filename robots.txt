@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block access to source/build internals
+Disallow: /src/
+Disallow: /.lovable/
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
+# Sitemaps
+Sitemap: https://ericjagwara.com/sitemap.xml
