@@ -354,7 +354,7 @@ function AboutSection() {
                 Who is <span style={{ color: C.accent }}>Eric Jagwara?</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Commonly known as <strong>Eric Jagwara</strong>, he was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
+                Commonly known as <strong>Eric Jagwara</strong>, was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 His professional journey began in civil engineering, where he developed a strong foundation in technical design and systems thinking. His path into technology started while assisting a friend at Intellisys Uganda, where he was not only introduced to embedded systems engineering but also integrating AI into IoT systems.
