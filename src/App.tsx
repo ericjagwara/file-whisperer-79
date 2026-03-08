@@ -354,10 +354,10 @@ function AboutSection() {
                 Who is <span style={{ color: C.accent }}>Eric Jagwara?</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Commonly known as <strong>Eric Jagwara</strong>, was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
+                Eric Jagwara's path into technology began through engineering and hands-on experimentation.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                His professional journey began in civil engineering, where he developed a strong foundation in technical design and systems thinking. His path into technology started while assisting a friend at Intellisys Uganda, where he was not only introduced to embedded systems engineering but also integrating AI into IoT systems.
+                Originally trained in civil engineering, he developed a strong foundation in technical design and systems thinking. While providing support at Intellisys, a friend's startup in Uganda, he was introduced to embedded systems engineering and began working on integrating artificial intelligence into IoT systems. What started as simple technical support quickly evolved into a deeper commitment to building intelligent technologies.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 After several years of hands-on work with embedded systems and hardware development, Eric explored various short courses until he eventually chose to go deeper with Bachelor of Science in Artificial Intelligence and Machine Learning at ISBAT University and from which onwards built on to further studies in tech and data. His engineering background continues to shape how he approaches complex problems, combining structural thinking with practical innovation.
