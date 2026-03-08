@@ -423,7 +423,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Startups and <span style={{ color: C.blue }}>Ecosystem</span>
+                Startups and Ecosystem
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric builds ventures and strengthens the environment that allows others to succeed. He has built several startups tackling diverse technological challenges, but his influence extends far beyond his own projects.
