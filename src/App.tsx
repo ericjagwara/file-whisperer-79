@@ -1085,7 +1085,7 @@ function ResearchPage({ setPage }: ResearchPageProps) {
   ];
 
   const reviews = [
-    { title: "CHI 2026 — AI Across Cultures Workshop", role: "Paper Reviewer", venue: "Portugal", link: "https://chi2026.acm.org" },
+    { title: "CHI 2026: AI Across Cultures Workshop", role: "Paper Reviewer", venue: "Portugal", link: "https://chi2026.acm.org" },
     { title: "MICCAI 2025", role: "Conference Mentor", venue: "Daejeon, South Korea", link: "https://conferences.miccai.org/2025/en/MENTORS.html" },
     { title: "MENA ML Winter School 2024–2026", role: "Application Reviewer", venue: "KAUST, Saudi Arabia" },
     { title: "DSAWH Fellowship 2025", role: "Proposal Reviewer", venue: "Women's Health AI" },
