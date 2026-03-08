@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ExternalLink, Quote, Menu, X } from "lucide-react";
+import { Routes, Route, useNavigate, useLocation, Link } from "react-router-dom";
+
 
 // Color constants
 const C = {
