@@ -355,7 +355,7 @@ function AboutSection() {
                 Who is <span style={{ color: C.accent }}>Eric Jagwara?</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Eric Jagwara's path into technology began through engineering and hands-on experimentation.
+                Jagwara Eric Ofuono commonly known as Eric Jagwara's path into technology began through engineering and hands-on experimentation.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Originally trained in civil engineering, he had developed a strong foundation in technical design and systems thinking. But while providing support at Intellisys, a friend's startup in Uganda, he was introduced to embedded systems engineering and began working on integrating artificial intelligence into IoT systems. What started as simple technical support quickly evolved into a deeper commitment to building intelligent technologies.
