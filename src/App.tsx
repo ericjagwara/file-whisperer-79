@@ -284,8 +284,9 @@ function Nav({ page, setPage }: NavProps) {
               }}
               className="px-3 py-1.5 rounded-md text-xs font-medium whitespace-nowrap transition-all duration-200"
               style={{
-                background: page === p ? `${C.accent}18` : "transparent",
-                border: page === p ? `1px solid ${C.accent}30` : "1px solid transparent",
+                background: "transparent",
+                border: "1px solid transparent",
+                borderBottom: page === p ? `1px solid ${C.accent}` : "1px solid transparent",
                 color: page === p ? C.accent : C.muted,
               }}
             >
