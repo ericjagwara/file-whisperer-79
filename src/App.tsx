@@ -1278,7 +1278,7 @@ function OpenSourcePage({ setPage }: OpenSourcePageProps) {
             </div>
             <div className="flex-1 min-w-48">
               <div className="text-base font-bold" style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}>
-                GitHub — <strong>Eric Jagwara</strong>
+                GitHub · <strong>Eric Jagwara</strong>
               </div>
               <div className="text-xs mt-1" style={{ color: C.muted, fontFamily: "'Inter',sans-serif" }}>
                 Plugins, ML solutions, AIoT prototypes
