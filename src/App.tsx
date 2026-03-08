@@ -352,7 +352,7 @@ function AboutSection() {
                 Who is <span style={{ color: C.accent }}>Eric Jagwara?</span>
               </h2>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Eric Jagwara was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
+                Commonly known as <strong>Eric Jagwara</strong>, he was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 His professional journey began in civil engineering, where he developed a strong foundation in technical design and systems thinking. His path into technology started while assisting a friend at Intellisys Uganda, where he was introduced to embedded systems engineering.
@@ -501,14 +501,6 @@ function HeroSection() {
           >
             Jagwara Eric <span style={{ color: C.accent }}>Ofuono</span>
           </h1>
-        </FadeIn>
-        <FadeIn delay={0.12}>
-          <p
-            className="text-sm mb-5 tracking-wide"
-            style={{ color: C.muted, fontFamily: "'Space Mono',monospace" }}
-          >
-            commonly known as <strong style={{ color: C.accent }}>Eric Jagwara</strong>
-          </p>
         </FadeIn>
         <FadeIn delay={0.18}>
           <p
