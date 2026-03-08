@@ -635,7 +635,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
                     )}
                   </div>
                   <div className="text-xs mt-1" style={{ color: C.accent, fontFamily: "'Inter',sans-serif" }}>
-                    {t.t} — {t.o}
+                    {t.t} · {t.o}
                   </div>
                 </div>
               </Cd>
