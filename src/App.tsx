@@ -751,8 +751,6 @@ function ExperiencePage({ setPage }: ExperiencePageProps) {
     ["MPH Epidemiology & Biostatistics", "ISBAT University", "Enrolled"],
     ["BSc AI & ML (2nd Class Upper)", "ISBAT University", "2025"],
     ["BEng. Civil Engineering", "Ndejje University", ""],
-    ["UACE (Sciences)", "Nsambya Hillside", "2015"],
-    ["UCE", "St Mary's SS Kitende", "2011"],
   ];
 
   const skills = [
