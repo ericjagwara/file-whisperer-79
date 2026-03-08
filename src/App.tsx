@@ -451,7 +451,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Community and <span style={{ color: C.purple }}>Leadership</span>
+                Community and Leadership
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric is a driving force in Africa's technology ecosystem, building networks, mentoring talent, and creating opportunities that matter. As Zindi's Country Ambassador for Uganda, he connects local data scientists to a community of over 100,000 practitioners, linking them to competitions, mentorship, and real-world AI projects.
