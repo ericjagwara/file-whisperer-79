@@ -502,14 +502,6 @@ function HeroSection() {
             Jagwara Eric <span style={{ color: C.accent }}>Ofuono</span>
           </h1>
         </FadeIn>
-        <FadeIn delay={0.12}>
-          <p
-            className="text-sm mb-5 tracking-wide"
-            style={{ color: C.muted, fontFamily: "'Space Mono',monospace" }}
-          >
-            commonly known as <strong style={{ color: C.accent }}>Eric Jagwara</strong>
-          </p>
-        </FadeIn>
         <FadeIn delay={0.18}>
           <p
             className="text-sm sm:text-base md:text-lg max-w-2xl mb-9 leading-relaxed"
