@@ -364,7 +364,7 @@ function AboutSection() {
             <FadeIn delay={0.1}>
               <div
                 className="rounded-2xl overflow-hidden"
-                style={{ border: `1px solid ${C.border}`, boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }}
+                style={{ border: `1px solid ${C.border}` }}
               >
                 <img
                   src="/images/Who_is_Eric_Jagwara.jpg"
