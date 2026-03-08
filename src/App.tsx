@@ -364,7 +364,7 @@ function AboutSection() {
             <FadeIn delay={0.1}>
               <div
                 className="rounded-2xl overflow-hidden"
-                style={{ border: `1px solid ${C.border}`, boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }}
+                style={{ border: `1px solid ${C.border}` }}
               >
                 <img
                   src="/images/Who_is_Eric_Jagwara.jpg"
@@ -731,7 +731,7 @@ function ExperiencePage({ setPage }: ExperiencePageProps) {
       tags: ["Data Science", "AI Research", "Civil Engineering", "Structural Design", "Technical Writing", "Feasibility Studies"],
     },
     {
-      title: "Cybersecurity Consultant",
+      title: "Cybersecurity Engineer",
       period: "2018 – Present",
       desc: "Freelance cybersecurity services including penetration testing, security auditing, compliance consulting (GDPR, ISO 27001), incident response, and malware removal for small-to-medium organisations.",
       sites: null,
