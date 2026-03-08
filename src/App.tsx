@@ -395,7 +395,7 @@ function AboutSection() {
                 className="text-lg font-bold mb-3"
                 style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}
               >
-                Technology, <span style={{ color: C.teal }}>Research and Trainings</span>
+                Technology, Research and Trainings
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Eric operates at the forefront of technology, blending embedded systems, IoT, machine learning, cybersecurity, and intelligent software. His work combines technical precision, creativity, and practical insight, producing solutions that are innovative, reliable, and designed to make a real difference.
