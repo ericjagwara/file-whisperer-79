@@ -265,10 +265,10 @@ function Nav({ page, setPage }: NavProps) {
           }}
           className="cursor-pointer flex items-baseline gap-2 flex-shrink-0"
         >
-          <span className="text-xl font-bold" style={{ fontFamily: "'Instrument Serif',serif", color: C.accent }}>
+          <span className="text-2xl font-bold" style={{ fontFamily: "'Instrument Serif',serif", color: C.accent }}>
             EJ
           </span>
-          <span className="text-xs tracking-wider" style={{ color: C.muted, fontFamily: "'Space Mono',monospace" }}>
+          <span className="text-xs tracking-widest font-medium" style={{ color: C.bright, opacity: 0.75, fontFamily: "'Space Mono',monospace" }}>
             JAGWARA
           </span>
         </div>
