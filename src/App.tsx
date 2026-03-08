@@ -474,9 +474,9 @@ function AboutSection() {
 function HeroSection() {
   const currentYear = new Date().getFullYear();
   const stats = [
-    [`${currentYear - 2020}+`, "Years", "AI & ML experience"],
-    [`${currentYear - 2015}+`, "Years", "App Development & Design"],
-    [`${currentYear - 2021}+`, "Active", "Research Contribution"],
+    [`${currentYear - 2021}+`, "Years", "AI & ML experience"],
+    [`${currentYear - 2016}+`, "Years", "App Development & Design"],
+    [`${currentYear - 2022}+`, "Active", "Research Contribution"],
   ];
   const socials = [
     { l: "LinkedIn", h: "https://linkedin.com/in/ericjagwara" },
