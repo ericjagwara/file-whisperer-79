@@ -1255,7 +1255,7 @@ function OpenSourcePage({ setPage }: OpenSourcePageProps) {
   const repos = [
     { title: "SVG-Ninja", desc: "WordPress plugin for secure SVG uploads with automatic metadata cleaning and zero frontend footprint.", tags: ["WordPress", "PHP", "SVG", "Security"], pub: true },
     { title: "Classic-Notice-Blocker", desc: "Classic Notice Blocker gives you full control over the admin notices cluttering your WordPress dashboard.", tags: ["WordPress", "PHP", "Admin UI"], pub: true },
-    { title: "CanaryDrop CLI", desc: "A lightweight cybersecurity terminal tool for creating and managing canary tokens — tripwires that alert you when attackers access them.", tags: ["Python", "Cybersecurity", "CLI"] },
+    { title: "CanaryDrop CLI", desc: "A lightweight cybersecurity terminal tool for creating and managing canary tokens, tripwires that alert you when attackers access them.", tags: ["Python", "Cybersecurity", "CLI"] },
     { title: "Various Datasets", desc: "Curated datasets for ML competitions and research, spanning agriculture, health, NLP, and geospatial domains.", tags: ["Data", "ML", "Open Data"] },
     { title: "Zindi Competition Solutions", desc: "Notebooks and pipelines from 80+ competitions spanning fraud detection, NLP, CV, time series, and geospatial tasks.", tags: ["Python", "LightGBM", "XGBoost"] },
     { title: "AIoT Prototypes", desc: "Firmware and control code for AI-guided agricultural rovers, assistive devices, and sensor data pipelines.", tags: ["Arduino", "Raspberry Pi", "C"] },
