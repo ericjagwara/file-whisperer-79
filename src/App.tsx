@@ -1535,7 +1535,6 @@ interface FooterProps {
 function Footer({ setPage }: FooterProps) {
   const contacts = [
     { i: "✉", l: "ericjagwara@gmail.com", h: "mailto:ericjagwara@gmail.com" },
-    { i: "📱", l: "+256 700 768 295", h: "tel:+256700768295" },
   ];
 
   const profiles = [
