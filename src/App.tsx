@@ -573,7 +573,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
     {
       q: "I've collaborated with Eric on numerous projects, particularly in AI-related endeavors. His adept management skills consistently elevate our project outcomes, showcasing his ability to effectively coordinate teams and resources.",
       n: "Soddo Paul",
-      t: "Founder — IntelliSys Uganda",
+      t: "Founder, IntelliSys Uganda",
       o: "IntelliSys Uganda",
     },
     {
