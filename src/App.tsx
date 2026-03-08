@@ -1336,21 +1336,55 @@ function BlogPage({ setPage }: BlogPageProps) {
   const [err, setErr] = useState(false);
 
   useEffect(() => {
-    const feedUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ericjagwara_65224";
-    fetch(feedUrl)
-      .then((r) => r.json())
-      .then((data) => {
-        if (data.status === "ok" && data.items) {
-          setPosts(data.items.slice(0, 10));
-        } else {
-          setErr(true);
-        }
-        setLoading(false);
-      })
-      .catch(() => {
-        setErr(true);
-        setLoading(false);
-      });
+    const mediumUser = "@ericjagwara_65224";
+    const rssUrl = `https://medium.com/feed/${mediumUser}`;
+
+    // Try rss2json first, fall back to allorigins proxy if it fails
+    const tryRss2json = () =>
+      fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`)
+        .then((r) => r.json())
+        .then((data) => {
+          if (data.status === "ok" && data.items?.length) {
+            setPosts(data.items.slice(0, 10));
+            setLoading(false);
+            return true;
+          }
+          return false;
+        })
+        .catch(() => false);
+
+    const tryAllOrigins = () =>
+      fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`)
+        .then((r) => r.json())
+        .then((data) => {
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(data.contents, "text/xml");
+          const items = Array.from(xml.querySelectorAll("item")).slice(0, 10);
+          if (!items.length) return false;
+          const parsed = items.map((item) => ({
+            title: item.querySelector("title")?.textContent || "",
+            link: item.querySelector("link")?.textContent || "",
+            pubDate: item.querySelector("pubDate")?.textContent || "",
+            description: item.querySelector("description")?.textContent || "",
+            thumbnail: item.querySelector("thumbnail")?.getAttribute("url") ||
+              item.querySelector("enclosure")?.getAttribute("url") || undefined,
+          }));
+          setPosts(parsed);
+          setLoading(false);
+          return true;
+        })
+        .catch(() => false);
+
+    tryRss2json().then((ok) => {
+      if (!ok) {
+        tryAllOrigins().then((ok2) => {
+          if (!ok2) {
+            setErr(true);
+            setLoading(false);
+          }
+        });
+      }
+    });
   }, []);
 
   const stripHtml = (html: string) => {
