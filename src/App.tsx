@@ -1108,7 +1108,7 @@ function ResearchPage({ setPage }: ResearchPageProps) {
             </div>
             <div className="flex-1 min-w-48">
               <div className="text-sm font-bold" style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}>
-                ORCID — <strong>Jagwara Eric Ofuono</strong>
+                ORCID · <strong>Jagwara Eric Ofuono</strong>
               </div>
               <div className="text-xs mt-1" style={{ color: C.muted, fontFamily: "'Space Mono',monospace" }}>
                 0009-0003-4935-3667
