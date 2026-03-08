@@ -578,8 +578,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
       q: "Throughout our time together, I've often marveled at how Eric Jagwara adeptly balances the dynamic world of technology with the traditional realm of civil engineering. Eric's ability to integrate these two fields sets him apart and undoubtedly contributes to his success in both domains. He is indeed a valuable addition to any team.",
       n: "Peter Kakobya",
       t: "Civil/Structural Engineer & iOS Developer",
-      o: "March 2024",
-      l: "https://www.linkedin.com/in/peter-kakobya/",
+      o: "LinkedIn",
     },
     {
       q: "Throughout our professional and personal relationship, I've had the privilege of witnessing Eric's expertise in various technical domains. I've been particularly impressed by his proficiency not only in data analysis but also in robotics, IoTs, and web development. Eric's seamless navigation across these diverse areas highlights his versatility and mastery in the evolving tech landscape.",
