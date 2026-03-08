@@ -1192,8 +1192,8 @@ interface CommunityPageProps {
 
 function CommunityPage({ setPage }: CommunityPageProps) {
   const roles = [
-    { org: "Zindi Africa", role: "Country Ambassador — Uganda", period: "Oct 2024 – Present", link: "https://zindi.africa", desc: "Growing Uganda's data science community. Previously Community Ambassador (Aug 2023)." },
-    { org: "UN AI for Good — Young AI Leaders", role: "Hub Leader — Kampala", period: "2024 – Present", link: "https://aiforgood.itu.int/young-ai-leaders-community/", desc: "Leading Kampala hub fostering AI talent and awareness." },
+    { org: "Zindi Africa", role: "Country Ambassador, Uganda", period: "Oct 2024 – Present", link: "https://zindi.africa", desc: "Growing Uganda's data science community. Previously Community Ambassador (Aug 2023)." },
+    { org: "UN AI for Good, Young AI Leaders", role: "Hub Leader, Kampala", period: "2024 – Present", link: "https://aiforgood.itu.int/young-ai-leaders-community/", desc: "Leading Kampala hub fostering AI talent and awareness." },
     { org: "Deep Learning Indaba", role: "Mentor", period: "2024 – Present", link: "https://deeplearningindaba.com", desc: "Mentoring teams on ethical AI-driven community projects." },
     { org: "IndabaX Uganda", role: "Community Engagement Chair", period: "2025", link: "https://indabaxug.github.io", desc: "Chairing community engagement for Uganda's Indaba chapter." },
     { org: "Data Science Africa", role: "Member", period: "2022+", link: "https://www.datascienceafrica.org", desc: "Training in data science and ML across the continent." },
