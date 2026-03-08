@@ -428,7 +428,7 @@ function AboutSection() {
                 Startups and Ecosystem
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Eric builds ventures and strengthens the environment that allows others to succeed. As founder of <strong>Solid Elf Security</strong> and <strong>Data Research Lab</strong> — among many other ventures — he has tackled diverse technological challenges, from cybersecurity to data-driven research, but his influence extends far beyond his own projects.
+                Eric builds ventures and strengthens the environment that allows others to succeed. As founder of <strong>Solid Elf Security</strong> and <strong>Data Research Lab</strong>, among many other ventures, he has tackled diverse technological challenges, from cybersecurity to data-driven research, but his influence extends far beyond his own projects.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Through collaboration with TechBuzz Hub and initiatives like Startup Funding Vehicles, he supports early-stage founders in turning ideas into products, securing funding, and scaling with confidence. He also speaks at high-profile events, inspiring innovators to push the boundaries of what is possible. By combining entrepreneurial experience with ecosystem leadership, Eric shapes Uganda's innovation landscape and helps position African startups to compete and thrive globally.
@@ -564,7 +564,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
       l: "https://www.linkedin.com/in/soddo-paul/",
     },
     {
-      q: "Eric served as a Zindi Community Ambassador before rising to become Uganda's Country Ambassador — a role that reflects the trust and impact he has built within the community. He has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
+      q: "Eric served as a Zindi Community Ambassador before rising to become Uganda's Country Ambassador, a role that reflects the trust and impact he has built within the community. He has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
       n: "Paul Kennedy",
       t: "Chief of Staff",
       o: "Zindi Africa",
@@ -573,7 +573,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
     {
       q: "I've collaborated with Eric on numerous projects, particularly in AI-related endeavors. His adept management skills consistently elevate our project outcomes, showcasing his ability to effectively coordinate teams and resources.",
       n: "Soddo Paul",
-      t: "Founder — IntelliSys Uganda",
+      t: "Founder, IntelliSys Uganda",
       o: "IntelliSys Uganda",
     },
     {
@@ -635,7 +635,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
                     )}
                   </div>
                   <div className="text-xs mt-1" style={{ color: C.accent, fontFamily: "'Inter',sans-serif" }}>
-                    {t.t} — {t.o}
+                    {t.t} · {t.o}
                   </div>
                 </div>
               </Cd>
@@ -1085,7 +1085,7 @@ function ResearchPage({ setPage }: ResearchPageProps) {
   ];
 
   const reviews = [
-    { title: "CHI 2026 — AI Across Cultures Workshop", role: "Paper Reviewer", venue: "Portugal", link: "https://chi2026.acm.org" },
+    { title: "CHI 2026: AI Across Cultures Workshop", role: "Paper Reviewer", venue: "Portugal", link: "https://chi2026.acm.org" },
     { title: "MICCAI 2025", role: "Conference Mentor", venue: "Daejeon, South Korea", link: "https://conferences.miccai.org/2025/en/MENTORS.html" },
     { title: "MENA ML Winter School 2024–2026", role: "Application Reviewer", venue: "KAUST, Saudi Arabia" },
     { title: "DSAWH Fellowship 2025", role: "Proposal Reviewer", venue: "Women's Health AI" },
@@ -1108,7 +1108,7 @@ function ResearchPage({ setPage }: ResearchPageProps) {
             </div>
             <div className="flex-1 min-w-48">
               <div className="text-sm font-bold" style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}>
-                ORCID — <strong>Jagwara Eric Ofuono</strong>
+                ORCID · <strong>Jagwara Eric Ofuono</strong>
               </div>
               <div className="text-xs mt-1" style={{ color: C.muted, fontFamily: "'Space Mono',monospace" }}>
                 0009-0003-4935-3667
@@ -1192,8 +1192,8 @@ interface CommunityPageProps {
 
 function CommunityPage({ setPage }: CommunityPageProps) {
   const roles = [
-    { org: "Zindi Africa", role: "Country Ambassador — Uganda", period: "Oct 2024 – Present", link: "https://zindi.africa", desc: "Growing Uganda's data science community. Previously Community Ambassador (Aug 2023)." },
-    { org: "UN AI for Good — Young AI Leaders", role: "Hub Leader — Kampala", period: "2024 – Present", link: "https://aiforgood.itu.int/young-ai-leaders-community/", desc: "Leading Kampala hub fostering AI talent and awareness." },
+    { org: "Zindi Africa", role: "Country Ambassador, Uganda", period: "Oct 2024 – Present", link: "https://zindi.africa", desc: "Growing Uganda's data science community. Previously Community Ambassador (Aug 2023)." },
+    { org: "UN AI for Good, Young AI Leaders", role: "Hub Leader, Kampala", period: "2024 – Present", link: "https://aiforgood.itu.int/young-ai-leaders-community/", desc: "Leading Kampala hub fostering AI talent and awareness." },
     { org: "Deep Learning Indaba", role: "Mentor", period: "2024 – Present", link: "https://deeplearningindaba.com", desc: "Mentoring teams on ethical AI-driven community projects." },
     { org: "IndabaX Uganda", role: "Community Engagement Chair", period: "2025", link: "https://indabaxug.github.io", desc: "Chairing community engagement for Uganda's Indaba chapter." },
     { org: "Data Science Africa", role: "Member", period: "2022+", link: "https://www.datascienceafrica.org", desc: "Training in data science and ML across the continent." },
@@ -1255,7 +1255,7 @@ function OpenSourcePage({ setPage }: OpenSourcePageProps) {
   const repos = [
     { title: "SVG-Ninja", desc: "WordPress plugin for secure SVG uploads with automatic metadata cleaning and zero frontend footprint.", tags: ["WordPress", "PHP", "SVG", "Security"], pub: true },
     { title: "Classic-Notice-Blocker", desc: "Classic Notice Blocker gives you full control over the admin notices cluttering your WordPress dashboard.", tags: ["WordPress", "PHP", "Admin UI"], pub: true },
-    { title: "CanaryDrop CLI", desc: "A lightweight cybersecurity terminal tool for creating and managing canary tokens — tripwires that alert you when attackers access them.", tags: ["Python", "Cybersecurity", "CLI"] },
+    { title: "CanaryDrop CLI", desc: "A lightweight cybersecurity terminal tool for creating and managing canary tokens, tripwires that alert you when attackers access them.", tags: ["Python", "Cybersecurity", "CLI"] },
     { title: "Various Datasets", desc: "Curated datasets for ML competitions and research, spanning agriculture, health, NLP, and geospatial domains.", tags: ["Data", "ML", "Open Data"] },
     { title: "Zindi Competition Solutions", desc: "Notebooks and pipelines from 80+ competitions spanning fraud detection, NLP, CV, time series, and geospatial tasks.", tags: ["Python", "LightGBM", "XGBoost"] },
     { title: "AIoT Prototypes", desc: "Firmware and control code for AI-guided agricultural rovers, assistive devices, and sensor data pipelines.", tags: ["Arduino", "Raspberry Pi", "C"] },
@@ -1278,7 +1278,7 @@ function OpenSourcePage({ setPage }: OpenSourcePageProps) {
             </div>
             <div className="flex-1 min-w-48">
               <div className="text-base font-bold" style={{ color: C.bright, fontFamily: "'Inter',sans-serif" }}>
-                GitHub — <strong>Eric Jagwara</strong>
+                GitHub · <strong>Eric Jagwara</strong>
               </div>
               <div className="text-xs mt-1" style={{ color: C.muted, fontFamily: "'Inter',sans-serif" }}>
                 Plugins, ML solutions, AIoT prototypes
