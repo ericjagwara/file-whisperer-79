@@ -429,7 +429,7 @@ function AboutSection() {
                 Startups and Ecosystem
               </h3>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                Eric builds ventures and strengthens the environment that allows others to succeed. As founder of <strong>Solid Elf Security</strong> and <strong>Data Research Lab</strong>, among many other ventures, he has tackled diverse technological challenges, from cybersecurity to data-driven research, but his influence extends far beyond his own projects.
+                Eric builds ventures and strengthens the environment that allows others to succeed. As part of <strong>Solid Elf Security</strong> and <strong>Data Research Lab</strong>, among many other ventures, he has tackled diverse technological challenges, from cybersecurity to data-driven research, but his influence extends far beyond his own projects.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 Through collaboration with TechBuzz Hub and initiatives like Startup Funding Vehicles, he supports early-stage founders in turning ideas into products, securing funding, and scaling with confidence. He also speaks at high-profile events, inspiring innovators to push the boundaries of what is possible. By combining entrepreneurial experience with ecosystem leadership, Eric shapes Uganda's innovation landscape and helps position African startups to compete and thrive globally.
