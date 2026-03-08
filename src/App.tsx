@@ -564,7 +564,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
       l: "https://www.linkedin.com/in/soddo-paul/",
     },
     {
-      q: "Eric served as a Zindi Community Ambassador before rising to become Uganda's Country Ambassador — a role that reflects the trust and impact he has built within the community. He has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
+      q: "Eric served as a Zindi Community Ambassador before rising to become Uganda's Country Ambassador, a role that reflects the trust and impact he has built within the community. He has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
       n: "Paul Kennedy",
       t: "Chief of Staff",
       o: "Zindi Africa",
