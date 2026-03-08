@@ -284,8 +284,9 @@ function Nav({ page, setPage }: NavProps) {
               }}
               className="px-3 py-1.5 rounded-md text-xs font-medium whitespace-nowrap transition-all duration-200"
               style={{
-                background: page === p ? `${C.accent}18` : "transparent",
-                border: page === p ? `1px solid ${C.accent}30` : "1px solid transparent",
+                background: "transparent",
+                border: "1px solid transparent",
+                borderBottom: page === p ? `1px solid ${C.accent}` : "1px solid transparent",
                 color: page === p ? C.accent : C.muted,
               }}
             >
@@ -321,8 +322,9 @@ function Nav({ page, setPage }: NavProps) {
                 }}
                 className="px-4 py-3 rounded-md text-sm font-medium text-left transition-all duration-200"
                 style={{
-                  background: page === p ? `${C.accent}18` : "transparent",
-                  border: page === p ? `1px solid ${C.accent}30` : "1px solid transparent",
+                  background: "transparent",
+                  border: "1px solid transparent",
+                  borderBottom: page === p ? `1px solid ${C.accent}` : "1px solid transparent",
                   color: page === p ? C.accent : C.muted,
                 }}
               >
@@ -562,7 +564,7 @@ function TestimonialsSection({ setPage }: { setPage: (page: string) => void }) {
       l: "https://www.linkedin.com/in/soddo-paul/",
     },
     {
-      q: "Eric has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
+      q: "Eric served as a Zindi Community Ambassador before rising to become Uganda's Country Ambassador — a role that reflects the trust and impact he has built within the community. He has participated in over 80 competitions and has ranked among the top worldwide, holding first place on Uganda's leaderboard for three years. I confidently recommend Eric as a talented data scientist and community leader.",
       n: "Paul Kennedy",
       t: "Chief of Staff",
       o: "Zindi Africa",
