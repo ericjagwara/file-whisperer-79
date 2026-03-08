@@ -357,7 +357,7 @@ function AboutSection() {
                 Commonly known as <strong>Eric Jagwara</strong>, he was born and raised in Bugiri District, Eastern Uganda, where opportunities were limited but curiosity and determination were always present.
               </p>
               <p className="text-sm leading-relaxed mb-4" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
-                His professional journey began in civil engineering, where he developed a strong foundation in technical design and systems thinking. His path into technology started while assisting a friend at Intellisys Uganda, where he was introduced to embedded systems engineering.
+                His professional journey began in civil engineering, where he developed a strong foundation in technical design and systems thinking. His path into technology started while assisting a friend at Intellisys Uganda, where he was not only introduced to embedded systems engineering but also integrating Ai into IoT systems
               </p>
               <p className="text-sm leading-relaxed" style={{ color: C.text, fontFamily: "'Inter',sans-serif" }}>
                 After several years of hands-on work with embedded systems and hardware development, Eric explored various short courses until he eventually chose to go deeper with Bachelor of Science in Artificial Intelligence and Machine Learning at ISBAT University and from which onwards built on to further studies in tech and data. His engineering background continues to shape how he approaches complex problems, combining structural thinking with practical innovation.
